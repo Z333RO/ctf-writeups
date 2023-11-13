@@ -144,4 +144,6 @@ I run the following command to privesc to root and get the final flag.
 
 ![8-final-flag.png](8-final-flag.png)
 
+I checked my dashboard and see that we have submitted all the necessary flags for this CTF.
 
+![9-final-score.png](9-final-score.png)
