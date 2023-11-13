@@ -109,7 +109,21 @@ We named the script db.py and executed it, and were able to obtain the first fla
 
 ![3-first-flag.png](3-first-flag.png)
 
-
 ## Flag 3
+
+I actually found the 3rd flag before getting the 2nd one. So I am jumping ahead for now. Remembering the local enumeration I did before with linpeas, there is a potential docker escape privesc that I can run here.
+
+I checked GTFObins and found this one:
+https://gtfobins.github.io/gtfobins/docker/
+
+I then ran this command to get the 3rd flag:
+`docker run -v /:/mnt --rm -it alpine chroot /mnt sh`
+
+![4-docker-privesc.png](4-docker-privesc.png)
+
+I confirmed that I can read the flag for the root user.
+
+![5-third-flag.png](5-third-flag.png)
+
 
 ## Flag 2
