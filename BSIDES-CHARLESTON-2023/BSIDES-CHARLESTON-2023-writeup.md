@@ -127,3 +127,17 @@ I confirmed that I can read the flag for the root user.
 
 
 ## Flag 2
+
+There is still a 2nd flag that I skipped, and remembering there is a docker container in this machine. I run the following commands to check and also access the container with a bash shell:
+```
+docker ps
+docker exec -it 8269fa564b7e bash
+```
+![6-docker-ps.png](6-docker-ps.png)
+
+As soon as I get into the container, I check with `sudo -l` and see another potential privesc path.
+
+![7-sudo-l-docker.png](7-sudo-l-docker.png)
+
+
+
