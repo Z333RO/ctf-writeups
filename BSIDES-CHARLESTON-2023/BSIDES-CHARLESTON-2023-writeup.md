@@ -139,5 +139,9 @@ As soon as I get into the container, I check with `sudo -l` and see another pote
 
 ![7-sudo-l-docker.png](7-sudo-l-docker.png)
 
+I run the following command to privesc to root and get the final flag. 
+`sudo /usr/bin/su`
+
+![8-final-flag.png](8-final-flag.png)
 
 
