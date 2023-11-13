@@ -1,4 +1,4 @@
-# BSIDES-CHARLESTON-2023-writeup
+# BSIDES-CHARLESTON-CTF-2023-writeup
 
 This is my writeup for the BSides Charleston CTF that took place on 11-4-2023. My team (l0wg4ng) and I were tasked to obtain 3 flags from a target machine which we had to SSH into. There was no initial foothold required as they supplied us with the SSH credentials. NOTE: The first flag had a hint before the CTF which mentioned it is found in a mysql database.
 
